@@ -1,0 +1,50 @@
+.ContainerSearch {
+    display: flex;
+          align-items: center;
+          flex: 4;
+          margin-top: 9px;
+    background-color: rgba(2, 63, 2, 0.473);
+    padding: 5px;
+          border-radius: 10px;
+}
+.ContainerIcons{
+    display: flex;
+    align-items: center;
+    flex: 0.22;
+}
+.ContainerLogo{
+flex: 0.2;
+}
+.mainNavbar{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    background-color: rgba(3, 107, 3, 0.473);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.Icons{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    
+}
+.searchIcon {
+    width: 20px;
+    height: 20px;
+}
+.searchInput{
+    width: 33pc;
+    border: none;
+    padding: 4px;
+    border-radius: 10px;
+    background-color:aliceblue;
+}
+.ProfileImage{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+}

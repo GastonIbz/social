@@ -1,0 +1,12 @@
+.Leftbar {
+flex:1;
+
+}
+
+.NotificacionesContainer {
+    width: 18pc;
+    height: 60vh;
+    background-color: rgba(2, 49, 2, 0.808);
+    margin-top: 20px;
+    border-radius: 20px;
+}
