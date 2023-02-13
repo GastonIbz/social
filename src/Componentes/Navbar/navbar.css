@@ -48,3 +48,13 @@ flex: 0.2;
     margin-left: 20px;
     margin-top: 10px;
 }
+
+.ContainerNickName{
+    color: White;
+    font-size: 14px;
+}
+
+.ContainerName {
+    color: white;
+    font-size: 16px;
+}

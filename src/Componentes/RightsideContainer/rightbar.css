@@ -1,3 +1,43 @@
 .rightbar{
     flex: 1;
 }
+
+.rightcontainer{
+    width: 20pc;
+    height: 35vh;
+background-color: rgba(2, 49, 2, 0.808);
+margin-top: 20px;
+border-radius: 15px;
+}
+.rightcontainer2{
+    width: 20pc;
+    height: 63vh;
+background-color: #023102ce;
+margin-top: 20px;
+border-radius: 15px;
+}
+
+.adsimg{
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.adsContainer{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding: 10px;
+}
+.ProfileImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.addfriend{
+    width: 23px;
+    height: 23px;
+    
+
+}

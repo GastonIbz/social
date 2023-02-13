@@ -9,13 +9,13 @@ export default function Navbar() {
   return (
 <div className='mainNavbar'>
     <div className='ContainerLogo'>
-        <p>GL HF</p>
+        <p className='ContainerName'>GL HF</p>
     </div>
 
     <div>
         <div className='ContainerSearch'>
             <img src={`${searchIcon}`} className="searchIcon" alt=""/>
-            <input type="text" className='searchInput' placeholder='Search' name="" id="" />
+            <input type="text" className='searchInput' placeholder='Buscar...' name="" id="" />
         </div>
     </div>
     <div className='ContainerIcons'>
@@ -23,7 +23,7 @@ export default function Navbar() {
         <img src={`${Message}`} className="Icons" alt=" " />
         <div style={{display:'flex', aligItems: 'center'}} >
             <img src={`${Profileimage}`} className="ProfileImage" alt="" />
-            <p style={{marginLeft:'7px'}}>Nickname</p>
+            <p className='ContainerNickName' style={{marginLeft:'7px'}}>Nickname</p>
         </div>
 </div>
 </div>

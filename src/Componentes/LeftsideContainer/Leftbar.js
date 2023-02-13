@@ -24,48 +24,48 @@ export default function Leftbar() {
     <div className='Leftbar'>
       <div className='NotificacionesContainer'>
 <div style={{display:'flex', justifyContent:'space-around'}}>
-<p style={{marginLeft:"-10px"}}>Notifications</p>
-<p style={{ color: "#aaa" , marginLeft:"40px" }}>See all</p>
+<p style={{marginLeft:"5px"}}>Notificaciones</p>
+<p style={{ color: "#aaa" , marginLeft:"40px" }}>Ver a todos</p>
   </div>
   <div>
   <div style={{display:'flex' , alignItems:"center" , marginTop:-10}}>
     <img src={`${image}`} className="NotificationImg" alt=""/>
-    <p style={{marginLeft:"5px" , color:"#aaa" , fontSize:13 , width:"120px" , textAlign:"start"}}>QuickSide like your post</p>
+    <p style={{marginLeft:"5px" , color:"#aaa" , fontSize:13 , width:"120px" , textAlign:"start"}}>A QuickSide le gusto tu post</p>
     <img src={`${image}`} className="LikeImg" alt=""/>
     </div>
     <div style={{display:'flex' , alignItems:"center" , marginTop:-10}}>
     <img src={`${post8}`} className="NotificationImg" alt=""/>
-    <p style={{marginLeft:"5px" , color:"#aaa" , fontSize:13 , textAlign:"start" , width:"120px"}}>Gushaba started to following you</p>
+    <p style={{marginLeft:"5px" , color:"#aaa" , fontSize:13 , textAlign:"start" , width:"120px"}}>Gushaba comenzo a seguirte</p>
     <img src={`${post8}`} className="followinguserimage" alt=""/>
     </div>
     <div style={{display:'flex' , alignItems:"center" , marginTop:-10}}>
     <img src={`${image3}`} className="NotificationImg" alt=""/>
-    <p style={{marginLeft:"5px" , color:"#aaa" , fontSize:13 , width:"120px" , textAlign:"start"}}>Riper like your post</p>
+    <p style={{marginLeft:"5px" , color:"#aaa" , fontSize:13 , width:"120px" , textAlign:"start"}}>A Riper le gusto tu post</p>
     <img src={`${image3}`} className="LikeImg" alt=""/>
     </div>
     <div style={{display:'flex' , alignItems:"center" , marginTop:-10}}>
     <img src={`${post2}`} className="NotificationImg" alt=""/>
-    <p style={{marginLeft:"5px" , color:"#aaa" , fontSize:13 ,  width:"120px" , textAlign:"start"}}>Radamantis started to following you</p>
+    <p style={{marginLeft:"5px" , color:"#aaa" , fontSize:13 ,  width:"120px" , textAlign:"start"}}>Radamantis comenzo a seguirte</p>
     <img src={`${post2}`} className="followinguserimage" alt=""/>
     </div>
     <div style={{display:'flex' , alignItems:"center" , marginTop:-10}}>
     <img src={`${image5}`} className="NotificationImg" alt=""/>
-    <p style={{marginLeft:"5px" , color:"#aaa" , fontSize:13 ,  width:"120px" , textAlign:"start"}}>Lauchita started to following you</p>
+    <p style={{marginLeft:"5px" , color:"#aaa" , fontSize:13 ,  width:"120px" , textAlign:"start"}}>Lauchita comenzo a seguirte</p>
     <img src={`${image5}`} className="followinguserimage" alt=""/>
     </div>
     <div style={{display:'flex' , alignItems:"center" , marginTop:-10}}>
     <img src={`${post}`} className="NotificationImg" alt=""/>
-    <p style={{marginLeft:"5px" , color:"#aaa" , fontSize:13 , width:"120px" , textAlign:"start"}}>Niñaje like your post</p>
+    <p style={{marginLeft:"5px" , color:"#aaa" , fontSize:13 , width:"120px" , textAlign:"start"}}>A Gonkun le gusto tu post</p>
     <img src={`${post}`} className="LikeImg" alt=""/>
     </div>
     <div style={{display:'flex' , alignItems:"center" , marginTop:-10}}>
     <img src={`${image4}`} className="NotificationImg" alt=""/>
-    <p style={{marginLeft:"5px" , color:"#aaa" , fontSize:13 ,  width:"120px" , textAlign:"start"}}>Soti started to following you</p>
+    <p style={{marginLeft:"5px" , color:"#aaa" , fontSize:13 ,  width:"120px" , textAlign:"start"}}>Soti comenzo a seguirte</p>
     <img src={`${image4}`} className="followinguserimage" alt=""/>
     </div>
     <div style={{display:'flex' , alignItems:"center" , marginTop:-10}}>
     <img src={`${post8}`} className="NotificationImg" alt=""/>
-    <p style={{marginLeft:"5px" , color:"#aaa" , fontSize:13 , width:"120px" , textAlign:"start"}}>Killua like your post</p>
+    <p style={{marginLeft:"5px" , color:"#aaa" , fontSize:13 , width:"120px" , textAlign:"start"}}>A Killua le gusto tu post</p>
     <img src={`${post8}`} className="LikeImg" alt=""/>
     
     </div>
