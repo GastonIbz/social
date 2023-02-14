@@ -15,9 +15,12 @@ export default function ContentPost() {
           <input type="text" className='ContentChat' placeholder='Escribe en lo que estas pensando...' />
         </div>
         <div style={{ display: 'flex', margin: '10px' }}>
-          <img src={`${ImageIcon}`} className="icons" alt="" />
-          <img src={`${EmojiIncon}`} className="icons" alt="" />
-          <img src={`${VideoIcon}`} className="icons" alt="" />
+          <div>
+            <img src={`${ImageIcon}`} className="icons" alt="" />
+            <img src={`${EmojiIncon}`} className="icons" alt="" />
+            <img src={`${VideoIcon}`} className="icons" alt="" />
+            <button style={{marginLeft:"465px", paddingLeft:"20px", paddingRight:"20px", paddingTop:8, paddingBottom:8, border:"none",backgroundColor:"black", color:"white", borderRadius:"5px", cursor:"pointer"}}>Postear</button>
+          </div>
         </div>
       </div>
     </div>

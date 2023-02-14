@@ -69,6 +69,12 @@ export default function Leftbar() {
     <img src={`${post8}`} className="LikeImg" alt=""/>
     
     </div>
+    <div style={{display:'flex' , alignItems:"center" , marginTop:-10}}>
+    <img src={`${post5}`} className="NotificationImg" alt=""/>
+    <p style={{marginLeft:"5px" , color:"#aaa" , fontSize:13 , width:"120px" , textAlign:"start"}}>A Monez le gusto tu post</p>
+    <img src={`${post5}`} className="LikeImg" alt=""/>
+    
+    </div>
     
   </div>
 </div>
