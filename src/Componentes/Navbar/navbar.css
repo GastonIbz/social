@@ -3,7 +3,7 @@
           align-items: center;
           flex: 4;
           margin-top: 12px;
-    background-color: rgba(2, 63, 2, 0.473);
+    background-color: rgb(28, 29, 28);
     padding: 5px;
           border-radius: 10px;
 }
@@ -20,7 +20,7 @@ flex: 0.2;
     width: 100%;
     margin: auto;
     justify-content: space-between;
-    background-color: rgba(3, 107, 3, 0.473);
+    background-color: #1c1d1c;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
 }
@@ -39,7 +39,7 @@ flex: 0.2;
     border: none;
     padding: 4px;
     border-radius: 10px;
-    background-color:aliceblue;
+    background-color:#023000;
 }
 .ProfileImage{
     width: 20px;

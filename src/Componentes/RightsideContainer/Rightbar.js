@@ -29,7 +29,7 @@ export default function Rightbar() {
         </div>
       </div>
       <div className='rightcontainer2'>
-     <h3 style={{textAlign:"start", marginLeft:"15px"}}> Sugerido para usted</h3>
+     <h3 style={{textAlign:"start", marginLeft:"15px", paddingTop:"15px"}}> Sugeridos para vos</h3>
      <div style={{margintop:"10px"}}>
       <div style={{display:'flex', alignItems:'center', justifyContent:'space-between'}}>
       <div style={{display:'flex', alignItems:"center"}}>
@@ -39,7 +39,7 @@ export default function Rightbar() {
         <p style={{marginLeft:"10px", textAlign:'start', marginTop:'-16px', fontSize:'11px', color:"#aaa"}}>Sugerido para usted</p>
         </div>
         </div>
-        <div style={{backgroundColor:"#023102ce", padding:'10px',marginRight:13, borderRadius:'50%', cursor:'pointer'}}>
+        <div style={{backgroundColor:"#303130", padding:'10px',marginRight:13, borderRadius:'50%', cursor:'pointer'}}>
           <img src={`${addFriends}`} className="addfriend" alt=""/>
         </div>
       </div>
@@ -53,7 +53,7 @@ export default function Rightbar() {
         <p style={{marginLeft:"10px", textAlign:'start', marginTop:'-16px', fontSize:'11px', color:"#aaa"}}>Seguido por Busta</p>
         </div>
         </div>
-        <div style={{backgroundColor:"#023102ce", padding:'10px',marginRight:13, borderRadius:'50%', cursor:'pointer'}}>
+        <div style={{backgroundColor:"#303130", padding:'10px',marginRight:13, borderRadius:'50%', cursor:'pointer'}}>
           <img src={`${addFriends}`} className="addfriend" alt=""/>
         </div>
       </div>
@@ -67,7 +67,7 @@ export default function Rightbar() {
         <p style={{marginLeft:"10px", textAlign:'start', marginTop:'-16px', fontSize:'11px', color:"#aaa"}}>Seguido por Busta</p>
         </div>
         </div>
-        <div style={{backgroundColor:"#023102ce", padding:'10px',marginRight:13, borderRadius:'50%', cursor:'pointer'}}>
+        <div style={{backgroundColor:"#303130", padding:'10px',marginRight:13, borderRadius:'50%', cursor:'pointer'}}>
           <img src={`${addFriends}`} className="addfriend" alt=""/>
         </div>
       </div>
@@ -81,7 +81,7 @@ export default function Rightbar() {
         <p style={{marginLeft:"10px", textAlign:'start', marginTop:'-16px', fontSize:'11px', color:"#aaa"}}>Seguido por Busta</p>
         </div>
         </div>
-        <div style={{backgroundColor:"#023102ce", padding:'10px',marginRight:13, borderRadius:'50%', cursor:'pointer'}}>
+        <div style={{backgroundColor:"#303130", padding:'10px',marginRight:13, borderRadius:'50%', cursor:'pointer'}}>
           <img src={`${addFriends}`} className="addfriend" alt=""/>
         </div>
       </div>
@@ -95,7 +95,7 @@ export default function Rightbar() {
         <p style={{marginLeft:"10px", textAlign:'start', marginTop:'-16px', fontSize:'11px', color:"#aaa"}}>Seguido por Busta</p>
         </div>
         </div>
-        <div style={{backgroundColor:"#023102ce", padding:'10px',marginRight:13, borderRadius:'50%', cursor:'pointer'}}>
+        <div style={{backgroundColor:"#303130", padding:'10px',marginRight:13, borderRadius:'50%', cursor:'pointer'}}>
           <img src={`${addFriends}`} className="addfriend" alt=""/>
         </div>
       </div>

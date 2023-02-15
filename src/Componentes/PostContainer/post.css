@@ -1,9 +1,6 @@
-.PostContainer{
-
-}
 .SubPostContainer{
     width: 94%;
-    background-color: #00410079;
+    background-color: #1c1d1c;
     margin-top: 20px;
     margin-left: 20px;
     border-radius: 10px;
@@ -26,4 +23,23 @@
 .moreicono{
     width: 25px;
     margin-left: 530px;
+}
+.commentinput{
+    width: 32pc;
+    height: 5vh;
+    margin-left: 15px;
+    border: none;
+   background-color: #1c1d1c;
+   color: white;
+}
+.addComentbtn{
+    padding: 9px;
+    border: none;
+    background-color: #022200;
+    color: white;
+    border-radius: 5px;
+    margin-left: 35px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
 }

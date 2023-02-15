@@ -6,7 +6,7 @@ flex:1;
 .NotificacionesContainer {
     width: 18pc;
     height: 65vh;
-    background-color: rgba(2, 49, 2, 0.808);
+    background-color: #1c1d1c;
     margin-top: 20px;
     border-radius: 20px;
     overflow: hidden;
