@@ -11,7 +11,7 @@ import anotherlikeicon from "../Images/setLike.png"
 
 export default function Post() {
   const [Like, setLike] = useState(LikeIcon);
-  const [count, setCount] = useState(10);
+  const [count, setCount] = useState(0);
   const [Comentarios, SetComentarios] = useState([]);
   const [comentariowriting, setcomentariowriting] = useState('')
   const [show, setshow] = useState(false);
@@ -74,7 +74,7 @@ export default function Post() {
               </div>
               <div style={{ display: "flex", alignItems: "center", marginLeft: 20, cursor: "pointer" }}>
                 <img src={`${ComentarioIcon}`} className="iconsforPost" onClick={handleshow} alt="" />
-                <p style={{ marginLeft: "6px" }}>120 Comentarios</p>
+                <p style={{ marginLeft: "6px" }}>0 Comentarios</p>
               </div>
               <div style={{ display: "flex", alignItems: "center", marginLeft: 330, cursor: "pointer" }}>
                 <img src={`${CompartirIcon}`} className="iconsforPost"  alt="" />
@@ -90,10 +90,13 @@ export default function Post() {
               <button className='addComentbtn' onClick={handleComentario}>Comentar</button>
             </div>
             {Comentarios.map((item) => (
-              <div style={{ display: "flex", alignItems: "center" }}>
+              <div style={{ alignItems: "center" }}>
+                <div style={{display:"flex", alignItems:"center"}}>
                 <img src={`${ImagePerfil}`} className="PostImage" alt="" />
-                <p style={{ marginLeft: "6px" }}>{item.username}</p>
-                <p style={{ marginLeft: "20px" }}>{item.title}</p>
+                <p style={{ marginLeft: "6px", fontSize:18 , marginTop:6}}>{item.username}</p>
+                </div>
+                <p style={{ marginLeft: "55px", textAlign:"start", marginTop:-16 }}>{item.title}</p>
+                <p style={{ marginLeft: "55px", textAlign:"start", marginTop:-10, color:"#aaa", fontSize:12 }}>Responder</p>
               </div>
             ))}
           </div>:''

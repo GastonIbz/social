@@ -1,5 +1,5 @@
 import React from 'react'
-import "./rightbar.css"
+import "./profilerightbar.css"
 import ads from "../Images/Ads.png";
 import ads2 from "../Images/Ads2.png";
 import addFriends from "../Images/Adduser.png"
@@ -9,9 +9,9 @@ import Add3 from "../Images/Post5.png"
 import Add4 from "../Images/Profile7.png"
 import Add5 from "../Images/Post6.png"
 
-export default function Rightbar() {
+export default function ProfileRightbar() {
   return (
-    <div className='rightbar'>
+    <div className='profilerightbar'>
       <div className='rightcontainer'>
         <div className='adsContainer'>
           <img src={`${ads}`} className="adsimg" alt=""/>
