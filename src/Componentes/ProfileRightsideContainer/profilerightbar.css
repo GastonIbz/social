@@ -2,12 +2,14 @@
     flex: 1;
 }
 
-.rightcontainer{
+.profilerightcontainer{
     width: 20pc;
     height: 25vh;
 background-color: #1c1d1c;
 margin-top: 20px;
 border-radius: 15px;
+overflow: hidden;
+overflow-y: scroll;
 }
 .rightcontainer2{
     width: 20pc;
@@ -40,4 +42,10 @@ border-radius: 15px;
     height: 23px;
     
 
+}
+.Contactimage{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 15px;
 }
