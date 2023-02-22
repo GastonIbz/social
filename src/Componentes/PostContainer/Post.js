@@ -55,8 +55,8 @@ export default function Post() {
           <div style={{ display: "flex", alignItems: "center" }}>
             <img src={`${ImageComent}`} className="PostImage" alt="" />
             <div>
-              <p style={{ marginLeft: "5px", textAlign: "start" }}>Nickname</p>
-              <p style={{ fontSize: "12px", textAlign: "start", marginLeft: 5, marginTop: -13, color: "#aaa" }}>Seguir a nickname</p>
+              <p style={{ marginLeft: "5px", textAlign: "start" }}>Mantis</p>
+              <p style={{ fontSize: "12px", textAlign: "start", marginLeft: 5, marginTop: -13, color: "#aaa" }}>Seguir a mantis</p>
             </div>
             <img src={`${MoreIcon}`} className="moreicono" alt="" />
           </div>
