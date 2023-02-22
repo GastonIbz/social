@@ -81,7 +81,7 @@ export default function Leftbar() {
 <div className='NotificacionesContainer'>
 <div style={{display:'flex', justifyContent:'space-around'}}>
 <p style={{marginLeft:"-20px"}}>Explore </p>
-<p style={{ color: "#aaa" , marginLeft:"40px" }}>See all</p>
+<p style={{ color: "#aaa" , marginLeft:"40px" }}>Ver a todos</p>
   </div>
  <div>
   <img src={`${post}`} className="exploreimage" alt=""/>
